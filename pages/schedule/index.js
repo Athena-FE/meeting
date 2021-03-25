@@ -5,7 +5,56 @@ Page({
    * 页面的初始数据
    */
   data: {
+    scheduleList: [
+      {
+        id: 1,
+        name: '测试ssadfas dGGGGG dfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+        member: ['baiziyu'],
+        start: Date.now() - 36000,
+        end: Date.now() - 10000,
+        room: '图书馆5楼会议室'
+      },
+      {
+        id: 1,
+        name: '测试',
+        member: ['baiziyu'],
+        start: Date.now() - 76000,
+        end: Date.now() - 50000,
+        room: '图书馆5楼会议室'
+      },
+      {
+        id: 1,
+        name: '测试',
+        member: ['baiziyu'],
+        start: Date.now() - 86000,
+        end: Date.now() - 60000,
+        room: '图书馆5楼会议室'
+      },
+      {
+        id: 1,
+        name: '测试',
+        member: ['baiziyu'],
+        start: Date.now() - 36000,
+        end: Date.now() - 10000,
+        room: '图书馆5楼会议室'
+      },
+      {
+        id: 1,
+        name: '测试',
+        member: ['baiziyu'],
+        start: Date.now() - 56000,
+        end: Date.now() - 40000,
+        room: '图书馆5楼会议室'
+      },
+      {
+        id: 1,
+        name: '测试',
+        member: ['baiziyu'],
+        start: Date.now() - 42000,
+        end: Date.now() - 20000
+      },
 
+    ]
   },
 
   /**

@@ -1,0 +1,18 @@
+<view class="schedule-item">
+  <view class="schedule-header">
+    <view class="text-view-2">
+      {{schedule.name}}
+    </view>
+  </view>
+  <view class="schedule-info">
+    <view class="schedule-time">
+      {{schedule.id}}-{{schedule.id}}
+    </view>
+    <view class="schedule-room">
+      {{schedule.room}}
+    </view>
+  </view>
+  <view>
+    {{schedule.member}}
+  </view>
+</view>

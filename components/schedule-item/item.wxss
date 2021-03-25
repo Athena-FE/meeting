@@ -1,0 +1,35 @@
+.schedule-item {
+  width: 86%;
+  margin: 16rpx auto;
+  border: 2rpx solid #000;
+  border-radius: 18rpx;
+  min-height: 256rpx;
+  box-shadow: 4rpx 4rpx 4rpx 2rpx #ccc;
+}
+.schedule-header {
+  color: #fff;
+  padding: 8rpx;
+  font-size: 28rpx;
+  background-color: #711;
+}
+.schedule-info {
+  height: 30px;
+  border: 1rpx solid #6f6;
+}
+.schedule-time {
+  float: left;
+  width: 50%;
+}
+.schedule-room {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.text-view-2 {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

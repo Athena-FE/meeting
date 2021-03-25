@@ -1,2 +1,5 @@
-<!--pages/schedule/index.wxml-->
-<text>pages/schedule/index.wxml</text>
+<view class="schedule-page page">
+  <view wx:for="{{scheduleList}}" wx:key="id" wx:for-item="item">
+    <ScheduleItem schedule="{{item}}"></ScheduleItem>
+  </view>
+</view>
